@@ -1,0 +1,55 @@
+name: torch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2024.9.24=haa95532_0
+  - intel-openmp=2024.2.1=h57928b3_1083
+  - libblas=3.9.0=25_win64_mkl
+  - libcblas=3.9.0=25_win64_mkl
+  - libhwloc=2.11.1=default_h8125262_1000
+  - libiconv=1.17=hcfcfb64_2
+  - liblapack=3.9.0=25_win64_mkl
+  - libxml2=2.13.4=h442d1da_2
+  - libzlib=1.3.1=h2466b09_2
+  - mkl=2024.2.2=h66d3029_14
+  - numpy=2.0.2=py39h60232e0_0
+  - openssl=3.3.2=h2466b09_0
+  - pandas=2.2.3=py39h2366fc2_1
+  - pip=24.2=py39haa95532_0
+  - pthreads-win32=2.9.1=h2466b09_4
+  - python=3.9.20=h8205438_1
+  - python-dateutil=2.9.0=pyhd8ed1ab_0
+  - python-tzdata=2024.2=pyhd8ed1ab_0
+  - python_abi=3.9=2_cp39
+  - pytz=2024.1=pyhd8ed1ab_0
+  - setuptools=75.1.0=py39haa95532_0
+  - six=1.16.0=pyh6c4a22f_0
+  - sqlite=3.45.3=h2bbff1b_0
+  - tbb=2021.13.0=hc790b64_0
+  - tzdata=2024b=h04d1e81_0
+  - ucrt=10.0.22621.0=h57928b3_1
+  - vc=14.40=h2eaa2aa_1
+  - vc14_runtime=14.40.33810=hcc2c482_22
+  - vs2015_runtime=14.40.33810=h3bf8584_22
+  - wheel=0.44.0=py39haa95532_0
+  - pip:
+      - filelock==3.16.1
+      - fsspec==2024.10.0
+      - jinja2==3.1.4
+      - joblib==1.4.2
+      - markupsafe==3.0.2
+      - mpmath==1.3.0
+      - networkx==3.2.1
+      - opencv-python==4.10.0.84
+      - pillow==11.0.0
+      - pyserial==3.5
+      - scikit-learn==1.5.2
+      - scipy==1.13.1
+      - sympy==1.13.1
+      - threadpoolctl==3.5.0
+      - torch==2.5.1
+      - torchaudio==2.5.1
+      - torchvision==0.20.1
+      - typing-extensions==4.12.2
+prefix: C:\Users\ag71579\AppData\Local\anaconda3\envs\torch
